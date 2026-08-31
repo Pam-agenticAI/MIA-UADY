@@ -1,0 +1,14 @@
+grid:
+  width: 4
+  height: 4
+agent:
+  start: [1, 1]
+  direction: east
+  arrows: 1
+wumpus: [1, 2]
+pits:
+  - [3, 2]
+  - [3, 4]
+  - [4, 3]
+gold: [3, 3]
+
