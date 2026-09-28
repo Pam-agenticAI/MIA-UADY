@@ -360,6 +360,14 @@ tiempo de recorrido.
 - Los tiempos de traslado son estimaciones, no mediciones.
 - El riesgo se asigna por contratista y no por frente, así que los tres frentes del
   contratista B comparten el mismo valor.
+- El contratista B agrupa a tres subcontratistas (HVAC, sistema eléctrico y sistema
+  contra incendio) con actividades de distinto riesgo, por lo que su promedio puede
+  ocultar diferencias entre ellos. Separarlos dejaría en promedio unas 8 observaciones
+  por subcontratista, una muestra insuficiente según el criterio de la sección C.1.
+- El riesgo promedio mide la intensidad de las observaciones, no su volumen ni la
+  exposición. El contratista A concentra el 65% de las observaciones, lo que coincide
+  con el criterio de campo de que high racking amerita más inspecciones por el trabajo
+  en altura, aunque su riesgo promedio no sea el más alto.
 
 #### 2.3.6 Interpretación
 
