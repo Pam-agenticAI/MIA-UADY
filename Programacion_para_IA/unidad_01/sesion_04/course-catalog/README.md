@@ -28,9 +28,7 @@ Cambié el mensaje INFO de `catalog/search.py` para que también muestre
 cuántos cursos se leyeron:
 
 ```python
-logger.info(
-    "Search completed: %d courses read, %d matches", len(courses), len(matches)
-)
+logger.info("Search completed: %d courses read, %d matches", len(courses), len(matches))
 ```
 
 Consulta directa (`uv run python main.py python`):
